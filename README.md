@@ -1,10 +1,10 @@
-# 🗳️ Kubernetes Voting App
+#  Kubernetes Voting App
 
 This is a sample microservices-based voting application deployed on Kubernetes. It demonstrates how to orchestrate a multi-tier application using containers and Kubernetes.
 
 ---
 
-## 🧱 Application Components
+##  Application Components
 
 The app consists of five microservices, each running in its own container:
 
@@ -16,7 +16,7 @@ The app consists of five microservices, each running in its own container:
 
 ---
 
-## 🚀 Prerequisites
+##  Prerequisites
 
 Make sure you have the following installed:
 
@@ -26,16 +26,16 @@ Make sure you have the following installed:
 
 ---
 
-## 📦 How to Deploy and Use the App
+##  How to Deploy and Use the App
 
-### 📁 step 1: Clone the Repository and Access the App 
+###  step 1: Clone the Repository and Access the App 
 
 ```bash
 git clone https://github.com/example/k8s-voting-app.git
 cd k8s-voting-app
 ```
 
-### 📁 step 2: Starting minikube service and accessing the application through url
+###  step 2: Starting minikube service and accessing the application through url
 ```bash
 minikube start
 minikube service voting-app-service
